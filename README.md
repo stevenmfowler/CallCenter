@@ -214,4 +214,4 @@ For issues or questions:
 
 ## License
 
-Copyright (c) 2024 Call Center Platform. All rights reserved.
+MIT License
