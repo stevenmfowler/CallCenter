@@ -1,0 +1,46 @@
+[
+  {
+    "id": "unique-guid",
+    "source": "Teams",
+    "callId": "CALL_001",
+    "startTime": "2023-10-01T10:00:00Z",
+    "endTime": "2023-10-01T10:30:00Z",
+    "duration": 30,
+    "participants": ["user1@domain.com", "user2@domain.com"],
+    "recording": true,
+    "partitionKey": "20231001",
+    "rowKey": "unique-guid"
+  },
+  {
+    "id": "unique-guid",
+    "source": "Avaya",
+    "callId": "AVAYA_001",
+    "startTime": "2023-10-01 10:00:00",
+    "duration": 30,
+    "participants": ["user1@domain.com"],
+    "recording": false,
+    "partitionKey": "20231001",
+    "rowKey": "unique-guid"
+  },
+  {
+    "id": "unique-guid",
+    "source": "Zoom",
+    "callId": "ZOOM_001",
+    "startTime": "2023-10-01T09:00:00Z",
+    "duration": 30,
+    "participants": ["user1@domain.com", "user2@domain.com", "user3@domain.com", "user4@domain.com", "user5@domain.com"],
+    "recording": true,
+    "partitionKey": "20231001",
+    "rowKey": "unique-guid"
+  },
+  {
+    "id": "unique-guid",
+    "source": "Ringcentral",
+    "callId": "RC_001",
+    "startTime": "2023-10-01T10:00:00Z",
+    "participants": ["John Doe"],
+    "recording": false,
+    "partitionKey": "20231001",
+    "rowKey": "unique-guid"
+  }
+]

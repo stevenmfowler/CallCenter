@@ -1,0 +1,23 @@
+{
+  "TestEnvironment": {
+    "StorageAccountName": "teststorageaccount",
+    "EventHubConnectionString": "Endpoint=sb://test.servicebus.windows.net/;SharedAccessKeyName=test;SharedAccessKey=test",
+    "KeyVaultName": "test-keyvault",
+    "FunctionAppName": "test-functions"
+  },
+  "TestData": {
+    "SampleTeamsData": "../data/teamsCallRecords_sample.json",
+    "SampleAvayaData": "../data/avayaLogs_sample.csv",
+    "SampleZoomData": "../data/zoomMeetings_sample.json",
+    "SampleRingcentralData": "../data/ringcentralCalls_sample.csv"
+  },
+  "ExpectedResults": {
+    "TransformedOutput": "expectedOutput.json",
+    "TableEntitySchema": "../storage/schema/callRecordEntity.json"
+  },
+  "TestSettings": {
+    "TimeoutSeconds": 30,
+    "RetryAttempts": 3,
+    "CleanupAfterTest": true
+  }
+}

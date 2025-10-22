@@ -1,0 +1,26 @@
+[
+  {
+    "callId": "PHC_FU_20231001_001",
+    "startTime": "2023-10-01T09:30:00Z",
+    "endTime": "2023-10-01T10:15:00Z",
+    "participants": ["dr.smith@piedmont.org", "nurse.johnson@piedmont.org", "patient.consultant@piedmont.org"],
+    "recording": true,
+    "metadata": {
+      "department": "Cardiology",
+      "patientId": "PHI_789234",
+      "callType": "Follow-up consultation"
+    }
+  },
+  {
+    "callId": "MHR_RES_20231001_002",
+    "startTime": "2023-10-01T14:00:00Z",
+    "endTime": "2023-10-01T14:20:00Z",
+    "participants": ["reservations@marriott.com", "concierge.downtown@marriott.com", "guest.services@marriott.com"],
+    "recording": false,
+    "metadata": {
+      "property": "Marriott Marquis",
+      "reservationId": "RES_ABC123456",
+      "callType": "Room upgrade inquiry"
+    }
+  }
+]

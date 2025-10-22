@@ -1,0 +1,5 @@
+callReference,timestamp,duration,extension,callerId,department,callType,client
+PHC_EMRG_20231001_001,2023-10-01 09:00:00,240,ext2001,911-555-0123,Emergency,PHI_123456,Emergency consultation
+PHC_SURG_20231001_002,2023-10-01 10:30:00,1800,ext2101,678-555-0456,Surgery,PHI_789012,Pre-op consultation
+MHR_CNCI_20231001_003,2023-10-01 15:00:00,720,ext3001,404-555-0789,Concierge,RES_XYZ789012,Valet parking
+MHR_ROOM_20231001_004,2023-10-01 16:30:00,1560,ext3101,770-555-0321,Front Desk,RES_ABC345678,Room service inquiry

@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "PartitionKey": {
+      "type": "string",
+      "description": "Source system (e.g., Teams, Avaya, Zoom, Ringcentral)"
+    },
+    "RowKey": {
+      "type": "string",
+      "description": "Unique identifier for the record"
+    },
+    "CallId": {
+      "type": "string",
+      "description": "Original call/meeting identifier from source"
+    },
+    "StartTime": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Start time in ISO 8601 format"
+    },
+    "EndTime": {
+      "type": "string",
+      "format": "date-time",
+      "description": "End time in ISO 8601 format"
+    },
+    "Duration": {
+      "type": "integer",
+      "description": "Duration in minutes"
+    },
+    "Participants": {
+      "type": "string",
+      "description": "JSON array of participant names/emails"
+    },
+    "Recording": {
+      "type": "boolean",
+      "description": "Whether the call/meeting was recorded"
+    }
+  },
+  "required": ["PartitionKey", "RowKey"]
+}

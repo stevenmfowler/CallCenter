@@ -1,0 +1,5 @@
+session,startTime,direction,displayName,result,department,clientId,callPurpose
+PHC_PHARM_20231001_001,2023-10-01T11:30:00Z,Outbound,Pharmacy Central,Answered,Pharmacy,PHI_456789,Prescription refill
+PHC_ADMIT_20231001_002,2023-10-01T12:15:00Z,Inbound,Dr. Wilson (478-555-0123),Answered,Admissions,PHI_234567,Patient admission inquiry
+MHR_DINE_20231001_003,2023-10-01T19:00:00Z,Inbound,Marriott Marquis Concierge,Answered,Dining,RES_DEF456789,Restaurant reservation
+MHR_TRAN_20231001_004,2023-10-01T20:30:00Z,Outbound,Airport Shuttle Service,Answered,Transportation,RES_GHI012345,Airport transfer

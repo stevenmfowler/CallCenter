@@ -1,0 +1,6 @@
+{
+    "dotnet.dotnetPath": "/home/steve/.dotnet9/dotnet",
+    "dotnet.preferCSharpExtension": false,
+    "dotnet.server.useOmnisharp": true,
+    "omnisharp.dotnetPath": "/home/steve/.dotnet9/dotnet"
+}

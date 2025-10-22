@@ -1,0 +1,27 @@
+{
+  "name": "CallCenterDiagnostics",
+  "type": "Microsoft.Insights/diagnosticSettings",
+  "properties": {
+    "logs": [
+      {
+        "category": "FunctionAppLogs",
+        "enabled": true,
+        "retentionPolicy": {
+          "enabled": true,
+          "days": 30
+        }
+      }
+    ],
+    "metrics": [
+      {
+        "category": "AllMetrics",
+        "enabled": true,
+        "retentionPolicy": {
+          "enabled": true,
+          "days": 30
+        }
+      }
+    ],
+    "workspaceId": "/subscriptions/<subscription-id>/resourceGroups/<resource-group>/providers/Microsoft.OperationalInsights/workspaces/<log-analytics-workspace>"
+  }
+}

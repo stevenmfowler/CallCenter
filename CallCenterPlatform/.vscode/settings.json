@@ -1,0 +1,12 @@
+{
+    "dotnet.dotnetPath": "/home/steve/.dotnet9/dotnet",
+    "dotnet.preferCSharpExtension": false,
+    "dotnet.server.useOmnisharp": true,
+    "omnisharp.dotnetPath": "/home/steve/.dotnet9/dotnet",
+    "github.copilot.enable": {
+        "*": false
+    },
+    "github.copilot.editor.enableAutoCompletions": false,
+    "github.copilot.inlineSuggest.enable": false,
+    "github.copilot.chat.enabled": false
+}

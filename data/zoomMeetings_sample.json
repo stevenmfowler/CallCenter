@@ -1,0 +1,28 @@
+[
+  {
+    "meetingId": "PHC_TUMOR_20231001_001",
+    "topic": "Tumor Board Review - PHI_789234",
+    "start_time": "2023-10-01T08:00:00Z",
+    "duration": 90,
+    "participants_count": 12,
+    "metadata": {
+      "department": "Oncology",
+      "patientId": "PHI_789234",
+      "confidentiality": "HIPAA Protected",
+      "recording_required": true
+    }
+  },
+  {
+    "meetingId": "MHR_EXEC_20231001_002",
+    "topic": "Executive Committee Meeting - Q4 Revenue",
+    "start_time": "2023-10-01T13:30:00Z",
+    "duration": 120,
+    "participants_count": 8,
+    "metadata": {
+      "department": "Executive",
+      "property": "Corporate HQ",
+      "meeting_type": "Financial Review",
+      "recording_required": false
+    }
+  }
+]

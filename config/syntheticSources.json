@@ -1,0 +1,43 @@
+[
+  {
+    "source": "Teams",
+    "schema": {
+      "callId": "string",
+      "startTime": "datetime",
+      "endTime": "datetime",
+      "participants": ["string"],
+      "recording": "boolean"
+    }
+  },
+  {
+    "source": "Avaya",
+    "schema": {
+      "callReference": "string",
+      "timestamp": "datetime",
+      "duration": "integer",
+      "extension": "string"
+    }
+  },
+  {
+    "source": "Zoom",
+    "schema": {
+      "meetingId": "string",
+      "topic": "string",
+      "start_time": "datetime",
+      "duration": "integer",
+      "participants_count": "integer"
+    }
+  },
+  {
+    "source": "Ringcentral",
+    "schema": {
+      "session": "string",
+      "startTime": "datetime",
+      "party": {
+        "displayName": "string",
+        "direction": "string"
+      },
+      "result": "string"
+    }
+  }
+]
